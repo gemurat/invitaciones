@@ -1,14 +1,16 @@
 @font-face {
     font-family: 'scriptinaregular';
     src: url('./assets/font/scriptin-webfont.woff2') format('woff2'),
-         url('./assets/font/scriptin-webfont.woff') format('woff');
+        url('./assets/font/scriptin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-*{
+
+* {
     font-family: 'scriptinaregular'
 }
+
 .img {
     width: 100%;
     z-index: 0;
@@ -26,7 +28,14 @@
     width: 100%;
     line-height: 1;
 }
-.Always{
+
+.Always {
     font-family: 'scriptinaregular';
     color: #4D0C20;
+}
+
+.linkDireccion {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #212529;
 }
