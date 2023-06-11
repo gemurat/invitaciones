@@ -8,9 +8,17 @@
 }
 
 * {
-    font-family: 'scriptinaregular'
+    font-family: 'scriptinaregular';
+
 }
 
+.main-body {
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .img {
     width: 100%;
     z-index: 0;
