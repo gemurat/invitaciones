@@ -1,74 +1,115 @@
 @font-face {
-    font-family: 'scriptinaregular';
-    src: url('./assets/font/scriptin-webfont.woff2') format('woff2'),
-        url('./assets/font/scriptin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'scriptinaregular';
+  src: url('./assets/font/scriptin-webfont.woff2') format('woff2'),
+    url('./assets/font/scriptin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 * {
-    font-family: 'scriptinaregular';
+  font-family: 'scriptinaregular';
 
 }
 
 .main-body {
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-  }
-  
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-.img {
-    width: 100%;
-    z-index: 0;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.img {
+  width: 100%;
+  z-index: 0;
+}
+
+.invitation-backgrond {
+  display: block;
+  background-image: url('./assets/img/border.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: -10px;
+}
+.invitation-info {
+
+}
 .text-over-img {
-    text-align: center;
-    z-index: 1;
-    font-family: 'scriptinaregular';
-    color: #F4E5D2;
-    margin-top: -90px;
-    font-weight: 0;
-    font-size: 40px;
-    text-align: center;
-    width: 100%;
-    line-height: 1;
+  text-align: center;
+  z-index: 1;
+  font-family: 'scriptinaregular';
+  color: #F4E5D2;
+  margin-top: -90px;
+  margin-bottom: 50px;
+  font-weight: 0;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  line-height: 1;
 }
 
 .Always {
-    font-family: 'scriptinaregular';
-    color: #4D0C20;
+  font-family: 'scriptinaregular';
+  color: #4D0C20;
 }
 
 .linkDireccion {
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none !important;
-    color: #212529 !important;
+  text-decoration: none !important;
+  color: #F4E5D2 !important;
+  background-color: #774755;
+  border-radius: 25px;
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
 }
