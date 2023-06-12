@@ -19,6 +19,9 @@
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
 }
+b {
+  font-family: 'Courier New', Courier, monospace !important;
+}
 
 @keyframes fadeIn {
   0% {
@@ -73,6 +76,7 @@
 .img {
   width: 100%;
   z-index: 0;
+  border-radius: 15px;
 }
 
 .invitation-backgrond {
@@ -82,9 +86,10 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: -10px;
+  min-height: 500px;
 }
-.invitation-info {
-
+.invitation-info-extra {
+  font-size: small;
 }
 .text-over-img {
   text-align: center;
